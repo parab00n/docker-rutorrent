@@ -7,7 +7,7 @@ mkdir -p \
 	/downloads{/completed,/incoming,/watched} \
 	/run{/nginx,/php} \
 	/var/lib/nginx/tmp/client_body \
-	/var/tmp/nginx
+	/config/tmp/nginx
 
 
 # copy config
@@ -55,7 +55,6 @@ chown -R abc:abc \
 	/run \
 	/usr/share/webapps/rutorrent \
 	/var/lib/nginx \
-	/var/tmp/nginx \
 	/var/www/localhost/rutorrent
 
 chmod -R 755 /config/rutorrent/profiles
